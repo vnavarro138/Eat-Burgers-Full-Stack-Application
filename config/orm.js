@@ -48,6 +48,8 @@ var orm = {
         throw err;
       }
       cb(result);
+      console.log("THIS WORKS: " + JSON.stringify(result));
+
     });
   },
 
